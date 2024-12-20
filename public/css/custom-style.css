@@ -1,0 +1,131 @@
+.header__logo img {
+    margin-top: -26px;
+    /* height: 70px; */
+    margin-left: -10%;
+}
+
+hr {
+    display: none;
+}
+
+.hero__text h2 {
+    background: whitesmoke;
+    padding: 4px 10px
+}
+
+.read-more {
+    margin-top: 20px;
+}
+
+.event1,
+.news1 {
+    margin-top: -30px;
+}
+
+.events,
+.news {
+    margin-bottom: 20px;
+}
+
+
+/* RESPONSIVE QUARIES */
+
+@media screen and (max-width: 991px) {
+    hr {
+        display: block;
+    }
+    /* For logo and name in the menu slider */
+    .offcanvas__logo img {
+        margin-top: -18%;
+        margin-left: -24px;
+    }
+    .slicknav_menu {
+        margin-top: -20px;
+    }
+    /* Header menu logo and name */
+    .container .canvas__open {
+        margin-top: -14px;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        margin-right: 6px;
+    }
+    .container .canvas__open i {
+        margin-top: 4px;
+    }
+    .header__logo img {
+        margin-top: -38px;
+    }
+    .consultation__form {
+        margin-top: 30px;
+    }
+    .consultation__text {
+        padding: 70px 0;
+        /* position: relative; */
+    }
+}
+
+.slider {
+    margin-top: -30px;
+    /* height: 200px;
+    background: red; */
+}
+
+.carousel-item {
+    /* height: 300px; */
+}
+
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* .school-name {
+        margin-top: -30%;
+    }
+    .header__logo img {
+        margin-left: 0%;
+    }
+    .header__logo a {
+        grid-template-columns: 40% 60%;
+    } */
+}
+
+
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* .school-name {
+        margin-top: -6%;
+        margin-left: -52%;
+    }
+    .header__logo img {
+        margin-left: 0%;
+    }
+    .header__logo a {
+        grid-template-columns: 40% 60%;
+    } */
+}
+
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+    /* .school-name {
+        margin-top: -8%;
+    }
+    .header__logo img {
+        margin-left: 0%;
+    } */
+}
+
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+    /* .school-name {
+        margin-top: -8%;
+    }
+    .header__logo img {
+        margin-left: 2%;
+    } */
+}
